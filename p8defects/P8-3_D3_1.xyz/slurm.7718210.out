@@ -1,0 +1,749 @@
+c552-202 stampede tacc utexas edu
+Running on sampede.tacc.xsede.org
+TACC: Starting up job 7718210
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+LAMMPS (10 Feb 2015)
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 10 10 10
+Reading data file ...
+  orthogonal box = (-14.6036 -14.6036 -14.6036) to (14.6036 14.6036 14.6036)
+  2 by 2 by 4 MPI processor grid
+  reading atoms ...
+  768 atoms
+Changing box ...
+  triclinic box = (-14.6036 -14.6036 -14.6036) to (14.6036 14.6036 14.6036) with tilt (0 0 0)
+Reading potential file CH.airebo with DATE: 2011-10-25
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 4.79788 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+       0            0   -4560.2218    152540.68    152540.71    152540.63    152540.71  -0.01859197  0.010999674 0.0030472552     29.20716     29.20716     29.20716    24915.407 
+     500            0   -4878.9525    18158.871    18158.876    18158.862    18158.875 -0.012198936 0.0091540414 0.00084902298    30.667518    30.667517    30.667518    28842.698 
+    1000            0   -5545.8071   -174.32518   -174.32527   -174.32505   -174.32523 -0.018420757  0.015435369 0.0014006296    29.592695    29.592694    29.592695    25915.138 
+    1500            0    -5681.742   -389.53424   -389.53424    -389.5342   -389.53429  -0.02436711   0.02411234 -0.00061283839    29.384593    29.384593    29.384592    25372.252 
+    2000            0   -5699.9172   -374.11937   -374.11183   -374.12361   -374.12267 -0.021380145  0.019339895 0.0012047288    29.377096    29.377096    29.377096    25352.839 
+    2500            0   -5711.6956    116.45555    116.45555    116.45554    116.45556  -0.01791532   0.01549621 0.0016274609    29.368522    29.368522    29.368522    25330.647 
+    3000            0   -5720.0272    98.839001       98.839    98.838997    98.839006 -0.014853504  0.012721895 0.0013715004    29.360591    29.360591    29.360591     25310.13 
+    3500            0   -5727.2062    128.04362    128.04457    128.04455    128.04175 -0.011876967  0.010242562 0.00093474874    29.346315    29.346315    29.346315    25273.229 
+    4000            0   -5732.2388    212.04341     209.7416    209.78207    216.60655 -0.010369652 0.0087833879 0.00097237932    29.329769    29.329769    29.329651    25230.403 
+    4500            0    -5736.757    132.36784    132.37302    132.37246    132.35804 -0.0034795511 0.0034629524 -0.00052613709    29.316074    29.316075    29.316075    25195.179 
+    5000            0   -5740.9621    76.488558    70.954856    71.547412    86.963405 -0.0016319152 0.0015362362 -0.00034139844    29.301452     29.30144    29.301133    25157.212 
+    5500            0   -5744.9804    198.74097    200.37843    200.20337    195.64111 -0.00053983139 0.00040926181 -0.00021102344    29.283042    29.283045    29.283136    25110.191 
+    6000            0   -5748.9912    176.05094    174.99714    175.10967      178.046 0.00012009685 -0.00026468194 -0.00011517213    29.263165    29.263163    29.263104    25058.955 
+    6500            0   -5753.1019    155.42197    156.34409     156.2458      153.676 0.00051128965 -0.00065407485 -5.1251307e-05    29.239446    29.239448      29.2395    24998.172 
+    7000            0   -5757.3655    126.32443    122.84783    123.21875    132.90669 0.00070565935 -0.0008368786 -1.1358682e-05    29.211073    29.211065    29.210871    24925.243 
+    7500            0   -5762.3597    144.17926    138.65575    139.23906    154.64295 0.00074400002 -0.00085795116 1.0326192e-05    29.170925    29.170913    29.170604    24822.507 
+    8000            0   -5767.9493   -95.962303   -55.382904   -60.272891   -172.23111 0.00061174953 -0.00070449735 3.3325728e-06    29.115249    29.115347    29.117602    24683.008 
+    8500            0   -5770.6177   -103.18141   -52.826984    -58.95967   -197.75759 0.00050001704 -0.00059630911 -6.7115825e-06    29.081225    29.081348    29.084146     24597.08 
+    9000            0   -5773.5278   -42.004628   -48.314552   -47.744977   -29.954354 0.00033906198 -0.00047272074 -1.9202728e-05    29.036499    29.036488    29.036129    24480.882 
+    9500            0   -5774.6785     64.92821    58.894323    59.412906      76.4774 0.00025793355 -0.00042858643 -2.2243439e-05    29.013981    29.013971    29.013627    24423.985 
+   10000            0   -5775.7047   -76.561389   -124.73874   -121.11802    16.172598 0.00016555451 -0.00039784475 -2.3191164e-05    28.993937    28.993864    28.991095    24371.255 
+   10500            0   -5776.4228   -34.012028    44.125792    38.682606   -184.84448 8.2249944e-05 -0.00037649141 -1.8091616e-05    28.973647    28.973757    28.978264     24326.54 
+   11000            0   -5777.2495    5.8091826    41.845098    39.683958   -64.101508 -4.8414555e-05 -0.00038904317 -7.8358586e-06    28.951429    28.951473    28.953562    24268.485 
+   11500            0    -5778.285   -61.299008   -97.204607   -95.825948    9.1335317 -0.00074311962 6.258025e-05 -0.00084859595    28.919509    28.919519    28.917399    24184.728 
+   12000            0   -5779.2586   -88.810772   -88.893304    -87.41781   -90.121204   -35.811889    -6.487656    -97.97511     28.88277    28.883548    28.883549    24095.721 
+   12500            0   -5780.6295   -86.221991   -48.705463   -155.57938   -54.381128   0.55963107   0.79174141    4.7009862    28.835741    28.837274    28.835059    23977.625 
+   13000            0   -5781.6755    35.229428    -40.73565    93.396857    53.027077 -0.012971689 0.0072915098 0.00029698471    28.810659    28.807107     28.80818    23909.399 
+   13500            0   -5783.0526   -77.244342   -93.395991   -64.990948   -73.346089 -0.015151476 0.0062600437 0.0050630449    28.786483    28.785749    28.785969    23853.219 
+   14000            0   -5785.3649   -148.81172   -133.90472   -159.80732   -152.72311 -0.018346169 0.0068997933 0.0085453322    28.753089    28.753772    28.753589     23772.31 
+   14500            0   -5789.6786   -123.55402   -115.10138   -129.79204   -125.76864 -0.019322162 0.0072011337   0.01102504    28.693147    28.693523    28.693422     23623.51 
+   15000            0   -5792.8474   -120.23876    -107.1437   -129.90428    -123.6683 -0.010808034 0.0043761146 0.0065622994     28.64168    28.642238    28.642085    23496.873 
+   15500            0   -5796.6819   -72.491379   -64.631728   -78.245854   -74.596556 -0.0016121058 0.00090959917 0.00022971579    28.567056    28.567378    28.567292    23313.364 
+   16000            0   -5798.5039    112.08915    167.28425    71.081889    97.901295 -0.0014190205 0.00081425979 2.370613e-05    28.530918    28.533138     28.53252    23227.657 
+   16500            0   -5799.6847   -33.064541    39.580578   -87.078709   -51.695493 -0.0016935472 0.00093817035 0.00023423657    28.513168    28.516065    28.515256     23185.28 
+   17000            0   -5800.7406    134.27874    127.02597    139.72782    136.08242 -0.001774587 0.0010194754 0.00033838336    28.496453    28.496168     28.49625    23140.087 
+   17500            0   -5801.5546   -60.474567   -112.13414   -23.102249   -46.187316 -0.0016912489 0.0010277679 0.00033107042    28.487037    28.485033    28.485553    23114.722 
+   18000            0   -5802.3347   -34.632355   -77.128804   -4.8443774   -21.923884 -0.0015271961 0.0010000897 0.00027273129    28.474388     28.47277    28.473153    23084.457 
+   18500            0   -5803.3531     96.08671    155.16676    52.311061    80.782313 -0.001243645 0.0009191978 0.00016515148     28.45544    28.457729    28.457095    23043.907 
+   19000            0   -5806.3295   -104.01762   -133.17434   -28.054572   -150.82395 -0.00044530143 0.00049339331 -2.1731412e-05    28.423263    28.420991    28.423653    22961.119 
+   19500            0   -5807.7884   -48.638213   -20.856002    -102.2779   -22.780741 -0.00016243387 0.00020252339 -4.6447444e-05    28.398387    28.400152    28.398415    22903.847 
+   20000            0   -5808.8491    5.6655096   -13.281155    13.020327    17.257357 -0.00017186572 0.0001790824 2.9904958e-05    28.377883     28.37754    28.377357    22852.129 
+   20500            0   -5809.6736    30.090508    12.433845     38.13309    39.704591 3.4264026e-06 5.459731e-05 -8.3854425e-05    28.359433    28.358818    28.358855    22807.326 
+   21000            0   -5810.4189   -32.154288   -58.393191     19.40583   -57.475503 -6.2962074e-05 5.396149e-05 5.6739949e-05    28.340967    28.339346    28.340945    22762.441 
+   21500            0   -5811.0187   -20.322968   -37.030665   -30.389224    6.4509862 5.9429135e-05 -3.8551982e-05 -0.00017077006    28.322314    28.322094     28.32141    22717.941 
+   22000            0   -5811.4985    149.77684    161.47046    104.51949    183.34057 -4.5926438e-05 9.3199414e-05 0.00014090615    28.302476    28.304109    28.302157    22672.189 
+   22500            0   -5812.0631    64.427792    94.195343    24.846787    74.241245 -4.8835392e-06 8.4050828e-05 0.00023364142    28.280214    28.281468    28.280304    22618.756 
+   23000            0   -5812.5564    49.293755    75.152817    35.648624    37.079824 -1.1899259e-05 3.9891791e-05 3.1395956e-05     28.25627    28.257049    28.257138    22561.596 
+   23500            0   -5812.9681    1.4168973    -93.36598   -51.896108    149.51278 1.622741e-07 7.0803351e-06 -1.334336e-05    28.235968    28.235098    28.230974    22507.013 
+   24000            0    -5813.363    63.242346    93.213211    65.744816    30.769009 9.1962252e-05 3.2968722e-05 -0.00035166105    28.206693    28.206932    28.207673    22442.709 
+   24500            0   -5813.6268   0.45295637    2.0623285  -0.37566304  -0.32779639 8.3208336e-05 0.00012384406 -1.0301316e-05    28.187705    28.187755    28.187765    22396.536 
+   25000            0   -5813.9449    72.837862   -150.60613    239.42053    129.69919 -1.8150669e-05 0.00010377171 8.056619e-05    28.163198    28.155595    28.157613    22327.624 
+   25500            0   -5814.2215   -167.45267   -87.185062    -258.1459   -157.02705 -0.0019516326 -0.0023889412 0.0022046917    28.129253    28.131016     28.12966    22259.126 
+   26000            0   -5814.4642   -104.26418   -195.95615   -126.54431      9.70793 0.0013287153 0.00035510426 0.00021081152    28.102419    28.100859    28.098162    22189.178 
+   26500            0      -5814.7   -45.680167   -51.097156    -43.96331   -41.980034 0.00017429899 0.00024990519 -6.9137622e-07     28.06099    28.060829     28.06093    22095.587 
+   27000            0   -5814.9012    66.009863     146.0463   -175.12002    227.10331 0.00060201286 -0.00052742437 -0.00067644222    28.007825    28.012883    28.005007    21972.166 
+   27500            0   -5815.0128    43.693199    68.977418   -36.665535    98.767714 0.00017884125 8.4558288e-05 0.0024623149    27.953433    27.955389    27.952897    21843.765 
+   28000            0   -5815.0285    1.3676735   -1.2669151    5.7278099  -0.35787425 0.00058494062 -0.00042200872 0.00035453912    27.907374    27.907079    27.907746    21734.923 
+   28500            0   -5815.0305    1.2303242   -1.8006877    3.2914588    2.2002015 -0.0016235189 -0.0003518328 0.00014662135    27.934197    27.934494    27.934287    21797.897 
+   29000            0   -5815.0313   -3.2008355    -2.168439   -6.7506371  -0.68343031 0.0023632632 -0.00059605652 -0.00043518866    27.921725    27.920908    27.921081    21767.273 
+   29500            0   -5815.0317    1.4386755   0.21381065       4.4567  -0.35448424 0.0013211717 -0.00070506031 -0.00050209668    27.916889    27.918015    27.916305    21757.525 
+   30000            0   -5815.0322    1.5014554    2.2335278   0.90771115    1.3631272 -0.0081117037 0.0017346564 0.00023786631    27.928205    27.928767    27.929234    21784.812 
+   30500            0   -5815.0327 -0.076454609 0.0068175046  -0.28190325  0.045721922 0.0030440279 -0.00093206191 0.00061481586    27.923541    27.923564    27.923505    21772.649 
+   31000            0   -5815.0327 -3.1793536e-08 -3.277532e-08 1.7385201e-10 -6.2779139e-08 -2.3635377e-07 -1.705932e-07 8.7858239e-08    27.923563    27.923563    27.923563     21772.71 
+   31436            0   -5815.0327 3.7519792e-10 9.3994464e-10 2.8179712e-09 -2.6323221e-09 6.4814122e-09 8.7690694e-10 8.8171075e-10    27.923563    27.923563    27.923563     21772.71 
+Loop time of 14.2472 on 16 procs (16 MPI x 1 OpenMP) for 31436 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -4560.22181681      -5815.0326516      -5815.0326516
+  Force two-norm initial, final = 4585.93 9.57434e-11
+  Force max component initial, final = 2372.16 4.0055e-11
+  Final line search alpha, max atom move = 1 4.0055e-11
+  Iterations, force evaluations = 31436 40809
+
+Pair  time (%) = 10.7178 (75.2271)
+Neigh time (%) = 0.0159187 (0.111732)
+Comm  time (%) = 1.80652 (12.6798)
+Outpt time (%) = 0.0446498 (0.313393)
+Other time (%) = 1.66236 (11.668)
+
+Nlocal:    48 ave 53 max 43 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 553 max 519 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3201 ave 3493 max 2909 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51216
+Ave neighs/atom = 66.6875
+Neighbor list builds = 18
+Dangerous builds = 0
+Displacing atoms ...
+System init for write_restart ...
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9615 13.9618 13.9618) with tilt (0 0 0)
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9615 13.9618 13.9618) with tilt (0 0 0)
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9615 13.9618 13.9618) with tilt (0 0 0)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326    8.2538803    18.053544    3.1545307    3.5535659  -0.14009009 -0.0047195089  0.041939958    27.923283    27.923563    27.923563    21772.492 
+   31500            0   -5815.0327    1.4425806    2.8874431   0.72152818   0.71877064 -0.0019650761 0.0029970986 0.0016935316    27.923283    27.923563    27.923563    21772.492 
+   31792            0   -5815.0327    1.4183308    2.8659021   0.69454441   0.69454596 -7.384863e-09 6.3899751e-09 -5.272834e-09    27.923283    27.923563    27.923563    21772.492 
+Loop time of 0.232379 on 16 procs (16 MPI x 1 OpenMP) for 356 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -5815.03264829     -5815.03265141     -5815.03265141
+  Force two-norm initial, final = 0.0216459 9.83083e-11
+  Force max component initial, final = 0.00161876 8.62126e-12
+  Final line search alpha, max atom move = 1 8.62126e-12
+  Iterations, force evaluations = 356 712
+
+Pair  time (%) = 0.174433 (75.0638)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0409667 (17.6292)
+Outpt time (%) = 0.00081338 (0.350023)
+Other time (%) = 0.0161666 (6.95697)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9621 13.9618 13.9618) with tilt (0 0 0)
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9621 13.9618 13.9618) with tilt (0 0 0)
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9621 13.9618 13.9618) with tilt (0 0 0)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326   -8.6168545   -18.620487   -3.8145614   -3.4155155  -0.14005223 -0.004767962  0.041949799    27.923842    27.923563    27.923563    21772.928 
+   31500            0   -5815.0327   -1.4422714   -2.8886239  -0.71824005  -0.71995017 -0.0019624008 0.0030376022 0.0017160823    27.923842    27.923563    27.923563    21772.928 
+   31793            0   -5815.0327   -1.4184247   -2.8660378  -0.69461884  -0.69461728 -7.4194853e-09 6.1016218e-09 -5.8194827e-09    27.923842    27.923563    27.923563    21772.928 
+Loop time of 0.231447 on 16 procs (16 MPI x 1 OpenMP) for 357 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -5815.03264821     -5815.03265141     -5815.03265141
+  Force two-norm initial, final = 0.0219011 8.9917e-11
+  Force max component initial, final = 0.00163195 1.29361e-11
+  Final line search alpha, max atom move = 1 1.29361e-11
+  Iterations, force evaluations = 357 714
+
+Pair  time (%) = 0.173844 (75.1117)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0406649 (17.5698)
+Outpt time (%) = 0.000843808 (0.36458)
+Other time (%) = 0.0160946 (6.95391)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9615 13.9618) with tilt (0 0 0)
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9615 13.9618) with tilt (0 0 0)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326    8.2538745    3.2005938    18.007432    3.5535978  -0.14007489 -0.0047510557   0.04195399    27.923563    27.923283    27.923563    21772.492 
+   31500            0   -5815.0327    1.4416763   0.71835794    2.8869535   0.71971736 -0.0017983485 0.0031527022 0.0016476318    27.923563    27.923283    27.923563    21772.492 
+   31792            0   -5815.0327    1.4183308   0.69454597    2.8659022   0.69454433 -6.7340225e-09 6.4250072e-09 -4.7275149e-09    27.923563    27.923283    27.923563    21772.492 
+Loop time of 0.229807 on 16 procs (16 MPI x 1 OpenMP) for 356 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -5815.03264829     -5815.03265141     -5815.03265141
+  Force two-norm initial, final = 0.0215773 9.7908e-11
+  Force max component initial, final = 0.00159762 1.06994e-11
+  Final line search alpha, max atom move = 1 1.06994e-11
+  Iterations, force evaluations = 356 712
+
+Pair  time (%) = 0.173314 (75.4171)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0400994 (17.4491)
+Outpt time (%) = 0.000799492 (0.347896)
+Other time (%) = 0.0155945 (6.78592)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9621 13.9618) with tilt (0 0 0)
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9621 13.9618) with tilt (0 0 0)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326   -8.6168488   -3.7684993   -18.666549    -3.415498  -0.14006743 -0.0047364184  0.041935768    27.923563    27.923842    27.923563    21772.928 
+   31500            0   -5815.0327   -1.4430095  -0.72104705   -2.8887654  -0.71921596 -0.0020184574 0.0029360227 0.0016970276    27.923563    27.923842    27.923563    21772.928 
+   31792            0   -5815.0327   -1.4184247  -0.69461727   -2.8660378  -0.69461891 -6.5383389e-09 7.1668142e-09 -5.2066769e-09    27.923563    27.923842    27.923563    21772.928 
+Loop time of 0.230028 on 16 procs (16 MPI x 1 OpenMP) for 356 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+         -5815.0326482     -5815.03265141     -5815.03265141
+  Force two-norm initial, final = 0.0219686 9.88497e-11
+  Force max component initial, final = 0.00155941 1.34909e-11
+  Final line search alpha, max atom move = 1 1.34909e-11
+  Iterations, force evaluations = 356 712
+
+Pair  time (%) = 0.173601 (75.4698)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0400005 (17.3894)
+Outpt time (%) = 0.000751972 (0.326905)
+Other time (%) = 0.0156738 (6.81389)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9615) with tilt (0 0 0)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326    8.2538892     3.200609    3.1545038    18.406555  -0.14005485 -0.0047614845  0.041943424    27.923563    27.923563    27.923283    21772.492 
+   31500            0   -5815.0327    1.4435088   0.71868932   0.72249636    2.8893408 -0.0019618765 0.0031247785 0.0017143618    27.923563    27.923563    27.923283    21772.492 
+   31793            0   -5815.0327    1.4183308   0.69454434   0.69454604    2.8659021 -8.8023593e-09 6.5438291e-09 -5.4425865e-09    27.923563    27.923563    27.923283    21772.492 
+Loop time of 0.232707 on 16 procs (16 MPI x 1 OpenMP) for 357 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -5815.03264824     -5815.03265141     -5815.03265141
+  Force two-norm initial, final = 0.0219282 8.87057e-11
+  Force max component initial, final = 0.0016867 1.05065e-11
+  Final line search alpha, max atom move = 1 1.05065e-11
+  Iterations, force evaluations = 357 714
+
+Pair  time (%) = 0.173709 (74.6471)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.041925 (18.0163)
+Outpt time (%) = 0.000778034 (0.334341)
+Other time (%) = 0.0162947 (7.00227)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9621) with tilt (0 0 0)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326   -8.6168635   -3.7684652   -3.8145839   -18.267541  -0.14008747 -0.0047259908  0.041946334    27.923563    27.923563    27.923842    21772.928 
+   31500            0   -5815.0327   -1.4411158  -0.72057188  -0.71594664    -2.886829 -0.0019088502 0.0029285515 0.0015938368    27.923563    27.923563    27.923842    21772.928 
+   31793            0   -5815.0327   -1.4184247   -0.6946189   -0.6946172   -2.8660379 -8.2476923e-09 6.5855268e-09 -4.9934243e-09    27.923563    27.923563    27.923842    21772.928 
+Loop time of 0.232536 on 16 procs (16 MPI x 1 OpenMP) for 357 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -5815.03264826     -5815.03265141     -5815.03265141
+  Force two-norm initial, final = 0.0216185 8.9611e-11
+  Force max component initial, final = 0.00156133 9.45322e-12
+  Final line search alpha, max atom move = 1 9.45322e-12
+  Iterations, force evaluations = 357 714
+
+Pair  time (%) = 0.173678 (74.6886)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0416962 (17.9311)
+Outpt time (%) = 0.000753433 (0.324007)
+Other time (%) = 0.0164084 (7.05631)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 -0.000279236)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326  -0.18172553  -0.28405353  -0.33012986  0.069006784  -0.14007246 -0.0047293356     8.676128    27.923563    27.923563    27.923563     21772.71 
+   31500            0   -5815.0327 -0.0012036068 -0.0022972434 0.00042194534 -0.0017355223 -0.00073531118 0.00019693855    3.6176374    27.923563    27.923563    27.923563     21772.71 
+   31779            0   -5815.0327 -6.8400985e-05 -3.1594307e-05 -0.00010276578 -7.084287e-05 -4.5319168e-10 -1.8627001e-11    3.6122549    27.923563    27.923563    27.923563     21772.71 
+Loop time of 0.223579 on 16 procs (16 MPI x 1 OpenMP) for 343 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+         -5815.0326489     -5815.03265136     -5815.03265136
+  Force two-norm initial, final = 0.0215221 9.51224e-11
+  Force max component initial, final = 0.00154639 1.34355e-11
+  Final line search alpha, max atom move = 1 1.34355e-11
+  Iterations, force evaluations = 343 686
+
+Pair  time (%) = 0.166812 (74.6099)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0401971 (17.9789)
+Outpt time (%) = 0.000742584 (0.332136)
+Other time (%) = 0.0158271 (7.07899)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0.000279236)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326  -0.18172652  -0.28404285   -0.3301464  0.069009694  -0.14006986 -0.0047581382   -8.5922382    27.923563    27.923563    27.923563     21772.71 
+   31500            0   -5815.0327 -0.0012330825 -0.0023643407 0.00044734835 -0.0017822553 -0.00084678422 6.3986417e-05    -3.617582    27.923563    27.923563    27.923563     21772.71 
+   31779            0   -5815.0327 -6.840358e-05 -3.1599417e-05 -0.0001027657 -7.0845626e-05 2.2822979e-10 -4.0227787e-10   -3.6122549    27.923563    27.923563    27.923563     21772.71 
+Loop time of 0.223361 on 16 procs (16 MPI x 1 OpenMP) for 343 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -5815.03264891     -5815.03265136     -5815.03265136
+  Force two-norm initial, final = 0.0215112 9.39643e-11
+  Force max component initial, final = 0.0017461 8.85111e-12
+  Final line search alpha, max atom move = 1 8.85111e-12
+  Iterations, force evaluations = 343 686
+
+Pair  time (%) = 0.166912 (74.7272)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0398578 (17.8446)
+Outpt time (%) = 0.000898659 (0.402334)
+Other time (%) = 0.0156932 (7.02594)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 -0.000279236 0)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326  -0.18172626  -0.28404384  -0.33014272  0.069007781  -0.14007714    8.6294315   0.04195928    27.923563    27.923563    27.923563     21772.71 
+   31500            0   -5815.0327 -0.0011448683 -0.0024002705 0.00049414151 -0.001528476 -0.00068378426     3.618004 0.00030595239    27.923563    27.923563    27.923563     21772.71 
+   31779            0   -5815.0327 -6.8402574e-05 -0.00013220991 -3.1558028e-05 -4.1439788e-05 6.6704273e-10    3.6122549 1.1815891e-09    27.923563    27.923563    27.923563     21772.71 
+Loop time of 0.223141 on 16 procs (16 MPI x 1 OpenMP) for 343 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -5815.03264891     -5815.03265136     -5815.03265136
+  Force two-norm initial, final = 0.0214451 9.41915e-11
+  Force max component initial, final = 0.00172531 1.08613e-11
+  Final line search alpha, max atom move = 1 1.08613e-11
+  Iterations, force evaluations = 343 686
+
+Pair  time (%) = 0.166902 (74.7964)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0399568 (17.9065)
+Outpt time (%) = 0.000776216 (0.347859)
+Other time (%) = 0.0155066 (6.94921)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0.000279236 0)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326  -0.18172579  -0.28409248  -0.33012818  0.069043275  -0.14006518   -8.6389189  0.041930477    27.923563    27.923563    27.923563     21772.71 
+   31500            0   -5815.0327 -0.001292455 -0.0024290186 0.00043452995 -0.0018828763 -0.00079311069   -3.6169324  0.000244904    27.923563    27.923563    27.923563     21772.71 
+   31779            0   -5815.0327 -6.8402905e-05 -0.00013221022 -3.1557341e-05 -4.1441153e-05 4.7031545e-10   -3.6122549 1.9391525e-09    27.923563    27.923563    27.923563     21772.71 
+Loop time of 0.224143 on 16 procs (16 MPI x 1 OpenMP) for 343 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -5815.03264891     -5815.03265136     -5815.03265136
+  Force two-norm initial, final = 0.0215879 9.24232e-11
+  Force max component initial, final = 0.00148944 8.2826e-12
+  Final line search alpha, max atom move = 1 8.2826e-12
+  Iterations, force evaluations = 343 686
+
+Pair  time (%) = 0.167038 (74.523)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0404228 (18.0344)
+Outpt time (%) = 0.000779673 (0.347847)
+Other time (%) = 0.0159024 (7.09475)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (-0.000279236 0 0)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326  -0.18172674  -0.28406699  -0.33006073  0.068947501    8.4941184 -0.0047497128  0.041943527    27.923563    27.923563    27.923563     21772.71 
+   31500            0   -5815.0327 -0.0011999306 -0.0024657916 0.0004649314 -0.0015989315    3.6173306 -1.0282485e-05 0.00036500667    27.923563    27.923563    27.923563     21772.71 
+   31779            0   -5815.0327 -6.840505e-05 -0.00010280761 -7.0784294e-05 -3.1623248e-05    3.6122549 -2.9018908e-11 1.4186913e-09    27.923563    27.923563    27.923563     21772.71 
+Loop time of 0.224916 on 16 procs (16 MPI x 1 OpenMP) for 343 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -5815.03264893     -5815.03265136     -5815.03265136
+  Force two-norm initial, final = 0.0214553 9.64068e-11
+  Force max component initial, final = 0.00161628 1.13054e-11
+  Final line search alpha, max atom move = 1 1.13054e-11
+  Iterations, force evaluations = 343 686
+
+Pair  time (%) = 0.167054 (74.2739)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0411574 (18.299)
+Outpt time (%) = 0.000726953 (0.323211)
+Other time (%) = 0.0159779 (7.10393)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+  using 1 OpenMP thread(s) per MPI task
+Reading restart file ...
+  restart file = 10 Feb 2015, LAMMPS = 10 Feb 2015
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0 0 0)
+  2 by 2 by 4 MPI processor grid
+  768 atoms
+Reading potential file CH.airebo with DATE: 2011-10-25
+Changing box ...
+  triclinic box = (-13.9618 -13.9618 -13.9618) to (13.9618 13.9618 13.9618) with tilt (0.000279236 0 0)
+Neighbor list info ...
+  1 neighbor list requests
+  update every 1 steps, delay 0 steps, check yes
+  master list distance cutoff = 7
+Setting up minimization ...
+Memory usage per processor = 3.80035 Mbytes
+Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
+   31436            0   -5815.0326  -0.18172531  -0.28403474  -0.33005326  0.068912073   -8.7742608 -0.004737761   0.04194623    27.923563    27.923563    27.923563     21772.71 
+   31500            0   -5815.0327 -0.0012232119 -0.0022668813 0.00037506665 -0.0017778211   -3.6176933 8.4339855e-05 0.00019147223    27.923563    27.923563    27.923563     21772.71 
+   31778            0   -5815.0327 -6.8397915e-05 -0.00010280476 -7.0774617e-05 -3.1614369e-05   -3.6122549 1.6136865e-09 2.2340229e-09    27.923563    27.923563    27.923563     21772.71 
+Loop time of 0.220862 on 16 procs (16 MPI x 1 OpenMP) for 342 steps with 768 atoms
+
+Minimization stats:
+  Stopping criterion = force tolerance
+  Energy initial, next-to-last, final = 
+        -5815.03264889     -5815.03265136     -5815.03265136
+  Force two-norm initial, final = 0.0215778 9.77427e-11
+  Force max component initial, final = 0.00160026 8.97563e-12
+  Final line search alpha, max atom move = 1 8.97563e-12
+  Iterations, force evaluations = 342 684
+
+Pair  time (%) = 0.166358 (75.3224)
+Neigh time (%) = 0 (0)
+Comm  time (%) = 0.0384437 (17.4062)
+Outpt time (%) = 0.0007824 (0.354249)
+Other time (%) = 0.0152773 (6.91715)
+
+Nlocal:    48 ave 54 max 42 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Nghost:    536 ave 552 max 520 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+Neighs:    0 ave 0 max 0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  3204 ave 3558 max 2850 min
+Histogram: 8 0 0 0 0 0 0 0 0 8
+
+Total # of neighbors = 51264
+Ave neighs/atom = 66.75
+Neighbor list builds = 0
+Dangerous builds = 0
+=========================================
+Components of the Elastic Constant Tensor
+=========================================
+Elastic Constant C11all = 28.6596997507366 GPa
+Elastic Constant C22all = 28.6596997551054 GPa
+Elastic Constant C33all = 28.6596997443298 GPa
+Elastic Constant C12all = 6.94581620512333 GPa
+Elastic Constant C13all = 6.94581620221274 GPa
+Elastic Constant C23all = 6.9458162081579 GPa
+Elastic Constant C44all = 36.1225488891587 GPa
+Elastic Constant C55all = 36.1225488735644 GPa
+Elastic Constant C66all = 36.1225488744663 GPa
+Elastic Constant C14all = 1.41409051127093e-08 GPa
+Elastic Constant C15all = 1.50403417048559e-09 GPa
+Elastic Constant C16all = -7.0383538544003e-09 GPa
+Elastic Constant C24all = 9.98563326908842e-10 GPa
+Elastic Constant C25all = -3.57277658808489e-09 GPa
+Elastic Constant C26all = -2.46814355210039e-08 GPa
+Elastic Constant C34all = 5.76630745012115e-09 GPa
+Elastic Constant C35all = 3.30890851791825e-09 GPa
+Elastic Constant C36all = -2.35843342198939e-08 GPa
+Elastic Constant C45all = -9.34781362288675e-10 GPa
+Elastic Constant C46all = -3.74188273555369e-09 GPa
+Elastic Constant C56all = -3.61494543948168e-09 GPa
+=========================================
+Average properties for a cubic crystal
+=========================================
+Bulk Modulus = 14.1837773867955 GPa
+Shear Modulus 1 = 36.1225488790631 GPa
+Shear Modulus 2 = 10.8569417724463 GPa
+Poisson Ratio = 0.195076971048526
+Deformation size: 1.0e-5
+Lattice_type	lattice_constant	bulk_modulus	poisson	     c11	     c12         c44	
+sc    10.0    14.1837773867955     0.195076971048526     28.6596997507366     6.94581620512333     36.1225488891587
+ 
+TACC: Shutdown complete. Exiting.
