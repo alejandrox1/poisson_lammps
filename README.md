@@ -2,6 +2,7 @@
 
 * For reference on this work see [Mechanical properties of hypothetical graphene foams: Giant Schwarzites](http://www.sciencedirect.com/science/article/pii/S000862231530350X)
 * [Tuning the Poisson Ratio of Porous Graphene by Defects](https://github.com/alejandrox1/poisson_lammps/blob/master/nsfposter.pdf)
+* For a brief introduction to how to use `Stampede` see [HPC-howto](https://github.com/alejandrox1/HPC-howto)
 
 # Production
 
